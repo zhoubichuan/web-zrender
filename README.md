@@ -1,6 +1,6 @@
-# Echarts 学习笔记
+# Zrender 学习笔记
 
-![Echarts](./src/.vuepress/public/home.png)
+![Zrender](./src/.vuepress/public/home.png)
 
 - 基础知识
   - [一.series 部分](./base/config/1.index.html)

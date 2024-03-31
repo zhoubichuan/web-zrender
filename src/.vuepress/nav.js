@@ -1,22 +1,18 @@
 const nav = [
   {
-    text: "Echarts基础",
+    text: "基础用法",
     items: [
       {
-        text: "一.组件部分",
-        link: "/base/components/1.index",
+        text: "一.zrender案例",
+        link: "/base/vue-cli2.x/1.index",
       },
       {
-        text: "二.系列部分",
-        link: "/base/series/1.index",
+        text: "二.zrender案例二",
+        link: "/base/vue-router3.x/1.index",
       },
       {
-        text: "三.API部分",
-        link: "/base/api/1.index",
-      },
-      {
-        text: "四.GL部分",
-        link: "/base/gl/1.index",
+        text: "三.zrender案例三",
+        link: "/base/vuex3.x/1.index",
       },
     ],
   },
@@ -42,47 +38,14 @@ const nav = [
       },
     ],
   },
-    {
-      text: "zrender",
-      items: [
-        {
-          text: "一.zrender案例",
-          link: "/source/vue-cli2.x/1.index",
-        },
-        {
-          text: "二.zrender",
-          link: "/source/vue2.x/1.index",
-        },
-        {
-          text: "三.Vue-Router3.x",
-          link: "/source/vue-router3.x/1.index",
-        },
-        {
-          text: "四.Vuex3.x",
-          link: "/source/vuex3.x/1.index",
-        },
-      ],
-    },
-    {
-      text: "Echarts源码",
-      items: [
-        {
-          text: "一.Vue/cli3.x",
-          link: "/source/vue-cli3.x/1.index",
-        },
-        {
-          text: "二.echarts",
-          link: "/source/vue3.x/1.index",
-        },
-        {
-          text: "三.echarts-gl",
-          link: "/source/vue-router4.x/1.index",
-        },
-        {
-          text: "四.Vuex4.x",
-          link: "/source/vuex4.x/1.index",
-        },
-      ],
-    },
+  {
+    text: "源码解析",
+    items: [
+      {
+        text: "zrender",
+        link: "/source/zrender/1.index",
+      },
+    ],
+  },
 ];
 module.exports = nav;

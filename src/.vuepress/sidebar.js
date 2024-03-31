@@ -1,63 +1,31 @@
 const sidebar = {
-    '/base/components/': [
-        '1.index',
-        '1.legend',
-        '2.grid',
-        '2.polar',
-        '2.radiusAxis',
-        '2.xAxis',
-        '2.yAxis',
-        '3.angleAxis',
-        '4.radar',
-        '5.dataZoom',
-        '6.visualMap',
-        '7.tooltip',
-        '8.geo',
+    '/base/vue-cli2.x/': [
+        '1.index'
     ],
-    '/base/series/': [
+    '/base/vue2.x/': [
         '1.index',
-        '1.line',
-        '2.bar',
-        '3.pie',
-        '4.scatter',
-        '5.effectScatter',
-        '6.radar',
-        '7.tree',
-        '8.treemap',
-        '9.sunburst',
-        '10.boxplot',
-        '11.candlestick',
-        '12.heatmap',
-        '13.map',
-        '14.parallel',
-        '15.lines',
-        '16.graph',
-        '17.sankey',
-        '18.funnel',
-        '19.gauge',
-        '20.pictorialBar',
-        '21.themeRiver',
-        '22.custom',
+        '2.initGlobalAPI',
+        '3.initMixin',
+        '4.stateMixin',
+        '5.eventsMixin',
+        '6.lifecycleMixin',
+        '7.renderMixin',
+        '8.mount',
+        '9.ast',
+        '10.optimize',
+        '11.gencode',
+        '12.mount',
+        '13._render',
+        '14._update'
     ],
-    '/base/api/': [
+    '/base/vue-router3.x/': [
         '1.index',
-        '1.echarts',
-        '2.echartsInstance',
-        '3.action',
-        '4.events'
+        '2.origin'
     ],
-    '/base/gl/': [
+    '/base/vuex3.x/': [
         '1.index',
-        '1.scatter3D',
-        '2.bar3D',
-        '3.line3D',
-        '4.lines3D',
-        '5.map3D',
-        '6.surface',
-        '7.polygons3D',
-        '8.scatterGL',
-        '9.graphGL',
-        '10.flowGL'
+        '2.use',
+        '3.origin'
     ],
     '/senior/1.micro/': [
         '1.index',
@@ -124,7 +92,7 @@ const sidebar = {
     '/source/vue-cli2.x/': [
         '1.index'
     ],
-    '/source/vue2.x/': [
+    '/source/zrender/': [
         '1.index',
         '2.initGlobalAPI',
         '3.initMixin',
@@ -140,39 +108,5 @@ const sidebar = {
         '13._render',
         '14._update'
     ],
-    '/source/vue-router3.x/': [
-        '1.index',
-        '2.origin'
-    ],
-    '/source/vuex3.x/': [
-        '1.index',
-        '2.use',
-        '3.origin'
-    ],
-    '/source/vue-cli3.x/': [
-        '1.index',
-    ],
-    '/source/vue3.x/': [
-        '1.index',
-        '2.initGlobalAPI',
-        '3.initMixin',
-        '4.stateMixin',
-        '5.eventsMixin',
-        '6.lifecycleMixin',
-        '7.renderMixin',
-        '8.mount',
-        '9.ast',
-        '10.optimize',
-        '11.gencode',
-        '12.mount',
-        '13._render',
-        '14._update'
-    ],
-    '/source/vue-router4.x/': [
-        '1.index'
-    ],
-    '/source/vuex4.x/': [
-        '1.index'
-    ]
 }
 module.exports = sidebar

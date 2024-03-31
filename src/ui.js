@@ -3,11 +3,9 @@
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import WebElementui from 'web-elementui'
-import WebEcharts from '../components/index.js'
 export default {
   install (Vue) {
     Vue.use(ElementUI)
     Vue.use(WebElementui)
-    Vue.use(WebEcharts)
   }
 }

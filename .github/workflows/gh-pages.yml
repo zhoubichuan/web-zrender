@@ -36,7 +36,7 @@ jobs:
           # 打包后的文件部署到哪个分支上
           BRANCH: gh-pages
           # 打包后的文件在哪里
-          FOLDER: web-echarts
+          FOLDER: web-zrender
       # 部署到 GitHub Pages
       - name: Deploy
         # 使用别人写好的一个 action

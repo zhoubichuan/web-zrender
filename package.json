@@ -1,10 +1,10 @@
 {
-  "name": "web-echarts",
+  "name": "web-zrender",
   "version": "1.0.0",
-  "description": "Echarts学习笔记",
+  "description": "Zrender学习笔记",
   "main": "index.js",
   "author": "zhoubichaun@icloud.com",
-  "hommepage": "https://github.com/zhoubichuan/web-echarts/",
+  "hommepage": "https://github.com/zhoubichuan/web-zrender/",
   "private": false,
   "license": "MIT",
   "scripts": {
@@ -53,7 +53,6 @@
   "dependencies": {
     "axios": "0.21.1",
     "echarts": "4.9.0",
-    "echarts-gl": "1.1.2",
     "element-ui": "2.3.7",
     "i18n": "0.15.1",
     "lodash": "4.17.21",
